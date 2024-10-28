@@ -1,0 +1,20 @@
+{
+  "name": "rps",
+  "version": "1.0.0",
+  "description": "Rock paper scissors game",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --base ./"
+  },
+  "author": "Tamir Fridman",
+  "license": "ISC",
+  "devDependencies": {
+    "vite": "^5.4.10",
+    "vite-tsconfig-paths": "^5.0.1"
+  },
+  "dependencies": {
+    "xpell": "^1.4.82"
+  }
+}

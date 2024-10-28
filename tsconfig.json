@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+      "target": "es2022",
+      "module": "esnext",
+      "moduleResolution": "node",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "forceConsistentCasingInFileNames": true,
+      "baseUrl": "./",
+      "paths": {
+        "xpell": ["./node_modules/xpell"]
+      },
+      "outDir": "./dist",
+      "sourceMap": true,
+      "resolveJsonModule": true
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules", "dist"]
+  }
+  
